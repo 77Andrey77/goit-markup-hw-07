@@ -1,38 +1,43 @@
-.сlients .title {
-  margin-bottom: 50px;
-}
+.сlients {
+  .title {
+    margin-bottom: 50px;
+  }
 
-.clients .list {
-  display: flex;
-}
-.clients .item {
-  margin-right: 30px;
-}
-.clients .link {
-  display: inline-flex;
-  width: 170px;
-  height: 90px;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-icon {
-  fill: $color-icon-svg;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-// последнему потомку убираем маржин
-.clients .item:last-child {
-  margin-right: 0px;
-}
-// изменение цвета рамки при ховер и фокус
-.clients .link:hover,
-.clients .link:focus {
-  border: 1px solid $accent-color;
-}
-//  изменение цвета свг при ховер и фокус
-.link:hover > .clients-icon,
-.link:focus > .clients-icon {
-  fill: $accent-color;
+  .list {
+    display: flex;
+  }
+
+  .item {
+    margin-right: 30px;
+  }
+  // последнему потомку убираем маржин
+  .item:last-child {
+    margin-right: 0px;
+  }
+
+  .link {
+    display: inline-flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  // изменение цвета рамки при ховер и фокус
+  .link:hover,
+  .link:focus {
+    border: 1px solid $accent-color;
+  }
+
+  &-icon {
+    fill: $color-icon-svg;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  //  изменение цвета свг при ховер и фокус
+  .link:hover > .clients-icon,
+  .link:focus > .clients-icon {
+    fill: $accent-color;
+  }
 }

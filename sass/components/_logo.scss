@@ -7,9 +7,9 @@
   font-size: 26px;
   line-height: 1.19;
   margin-right: 85px;
-}
-// цвет логотипа второго слова
 
-.logo-studio {
-  color: $title-text-color;
+  // цвет логотипа второго слова
+  &-studio {
+    color: $title-text-color;
+  }
 }

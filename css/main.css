@@ -455,15 +455,14 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 48px;
-  padding-bottom: 28px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer .map {
@@ -487,7 +486,7 @@ body {
 
 .adres .logo {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .adres .item {
@@ -561,6 +560,7 @@ body {
 }
 
 .finish {
+  display: none;
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   padding-bottom: 21px;
